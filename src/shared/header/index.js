@@ -1,9 +1,10 @@
 import React from 'react'
+import './headerStyle.css'
 
-const Index = () => {
+const Header = () => {
   return (
-    <div>Index</div>
+    <div className='header-main'>Header</div>
   )
 }
 
-export default Index
+export default Header;
