@@ -1,0 +1,17 @@
+.discoverplace_container{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.full_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.discover_text{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
