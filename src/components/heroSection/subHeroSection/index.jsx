@@ -12,12 +12,12 @@ const SubHeroSection = () => {
                 Save properties, create alerts and keep track of the enquiries you sent to agents.
             </p>
         </div>
-        <div className='sub_hero_section_cta'>
+        <div>
             <Button style={{
                 backgroundColor: '#DBA94D',
                 color: '#1f4b43',
                 padding: "9px 12px",
-                width: "150px"
+                width: "150px",
             }}
             btnName={"Download our app"}
             rightIcon={<svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">

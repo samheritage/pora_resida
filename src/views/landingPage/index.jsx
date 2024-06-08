@@ -4,6 +4,7 @@ import React from 'react'
 import Header from 'shared/header'
 import DiscoverPlace from 'components/discoverPlace'
 import SubHeroSection from 'components/heroSection/subHeroSection'
+import InfoCard from 'components/infoCard'
 
 const LandingPage = () => {
   return (
@@ -11,6 +12,7 @@ const LandingPage = () => {
       <Header />
       <HeroSection />
       <SubHeroSection />
+      <InfoCard />
       <DiscoverPlace />
       </div>
   )
