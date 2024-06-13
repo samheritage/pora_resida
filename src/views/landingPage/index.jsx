@@ -7,6 +7,8 @@ import SubHeroSection from 'components/heroSection/subHeroSection'
 import InfoCard from 'components/infoCard'
 import residainfo from '../../assets/residainfo.png'
 import guidemap from '../../assets/guidemap.png'
+import OurExperience from 'components/ourExperience'
+import FindYourSpace from 'components/findYourSpace'
 
 const LandingPage = () => {
   return (
@@ -26,7 +28,9 @@ const LandingPage = () => {
       infoStyle={"info"}
       />
       {/* Our Experience */}
+      <OurExperience />
       {/* Find Your Space Now */}
+      <FindYourSpace />
       <InfoCard 
       title="Comprehensive"
       subtitle="Neighborhood Guides"
