@@ -13,6 +13,8 @@
 .info_description{
     width: full;
     height: 70vh;
+    display: flex;
+    flex-direction: column;
 }
 .info_image{
 width: full;
@@ -54,6 +56,39 @@ margin-bottom: 5px;
     padding-top: 2rem;
     /* object-fit: cover; */
 }
+.info_comprehensive_image{
+    width: full;
+    height: 70vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    }    
+.info_comprehensive_image_height{
+    width: 70%;
+    height: 800px;
+    padding-top: 0px;
+}
+.info_guide{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 25px;
+}
+.info_guide .info_title{
+font-weight: 300;
+font-size: 26px;
+color: #1f4b43;
+}
+.info_guide .info_subtitle{
+    font-weight: 500;
+    font-size: 28px;
+    color: #1f4b43;
+    }
+
+    
 @media (max-width:841px) {
  .info_inner_container{
     max-width: 100%;
